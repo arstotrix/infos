@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Search page</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<body>
+<form action = "http://127.0.0.1:5000/result" method = 'POST'>
+Your query: <input type="text" name="query"></input><br>
+Your search method:
+	<select name="src_method">
+		<option value="tf-idf">tf-idf</option>
+		<option value="bm25">bm25</option>
+	</select>
+<button type="submit">Search</button>
+</form>
+{% for href,title in links %}
+<a href="{{ href }}" target="_blank">{{ title }}<a><br>
+{% endfor %}
+</body>
+</html>
