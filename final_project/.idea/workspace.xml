@@ -2,16 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8670311-a778-4a33-b670-85d678583fcb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6 Final/flask/templates/result.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/calculate_bm25.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/calculate_tfidf.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/draft.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/getdata.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pre_processing.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/search_bm25.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/search_engine.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../6 Final/.ipynb_checkpoints/sem6-checkpoint.ipynb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../6 Final/flask/.ipynb_checkpoints/example-checkpoint.ipynb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../6 Final/flask/app.py" beforeDir="false" />
@@ -253,7 +243,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.25" />
