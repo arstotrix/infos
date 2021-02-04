@@ -6,7 +6,7 @@ from pre_processing import preprocess, presets
 
 X = getdata()
 presets()
-df_final = pd.read_excel("dffinal.xlsx")
+df_final = pd.read_csv('dffinal.tsv', sep='\t')
 questions = df_final['questions'].values.tolist()
 answers = df_final['answers'].values.tolist()
 

@@ -30,7 +30,7 @@ def getdata():
     df_final['questions'] = questions
     df_final['answers'] = answers
     df_final['lemmas'] = corpus
-    df_final.to_excel("dffinal.xlsx")
+    df_final.to_csv("dffinal.tsv", sep = '\t')
     X = vectorizer.fit_transform(corpus)
     print("Корпус успешно векторизован")
     return X
